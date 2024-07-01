@@ -1,0 +1,530 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyt/global//global/global/global}
+  \entry{campos2021orb}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=CC}{%
+         family={Campos},
+         familyi={C\bibinitperiod},
+         given={Carlos},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=ER}{%
+         family={Elvira},
+         familyi={E\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=RJJG}{%
+         family={Rodr{\'\i}guez},
+         familyi={R\bibinitperiod},
+         given={Juan J\bibnamedelima G{\'o}mez},
+         giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
+  G\bibinitperiod},
+      }}%
+      {{hash=MJM}{%
+         family={Montiel},
+         familyi={M\bibinitperiod},
+         given={Jos{\'e}\bibnamedelima MM},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=TJD}{%
+         family={Tard{\'o}s},
+         familyi={T\bibinitperiod},
+         given={Juan\bibnamedelima D},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{CC+1}
+    \strng{fullhash}{CCERRJJGMJMTJD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{number}{6}
+    \field{pages}{1874\bibrangedash 1890}
+    \field{title}{Orb-slam3: An accurate open-source library for visual,
+  visual--inertial, and multimap slam}
+    \field{volume}{37}
+    \field{journaltitle}{IEEE Transactions on Robotics}
+    \field{year}{2021}
+  \endentry
+
+  \entry{detone2018superpoint}{inproceedings}{}{}
+    \name{author}{3}{}{%
+      {{hash=DD}{%
+         family={DeTone},
+         familyi={D\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=MT}{%
+         family={Malisiewicz},
+         familyi={M\bibinitperiod},
+         given={Tomasz},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Rabinovich},
+         familyi={R\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DDMTRA1}
+    \strng{fullhash}{DDMTRA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{booktitle}{Proceedings of the IEEE conference on computer vision and
+  pattern recognition workshops}
+    \field{pages}{224\bibrangedash 236}
+    \field{title}{Superpoint: Self-supervised interest point detection and
+  description}
+    \field{year}{2018}
+  \endentry
+
+  \entry{dusmanu2019d2}{article}{}{}
+    \name{author}{7}{}{%
+      {{hash=DM}{%
+         family={Dusmanu},
+         familyi={D\bibinitperiod},
+         given={Mihai},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RI}{%
+         family={Rocco},
+         familyi={R\bibinitperiod},
+         given={Ignacio},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=PT}{%
+         family={Pajdla},
+         familyi={P\bibinitperiod},
+         given={Tomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Pollefeys},
+         familyi={P\bibinitperiod},
+         given={Marc},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Sivic},
+         familyi={S\bibinitperiod},
+         given={Josef},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=TA}{%
+         family={Torii},
+         familyi={T\bibinitperiod},
+         given={Akihiko},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Sattler},
+         familyi={S\bibinitperiod},
+         given={Torsten},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DM+1}
+    \strng{fullhash}{DMRIPTPMSJTAST1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{D2-net: A trainable cnn for joint detection and description
+  of local features}
+    \field{journaltitle}{arXiv preprint arXiv:1905.03561}
+    \field{year}{2019}
+  \endentry
+
+  \entry{ethan2011orb}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=ER}{%
+         family={Ethan},
+         familyi={E\bibinitperiod},
+         given={Rublee},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ER1}
+    \strng{fullhash}{ER1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{title}{ORB: An efficient alternative to SIFT or SURF}
+    \field{journaltitle}{ICCV, 2011}
+    \field{year}{2011}
+  \endentry
+
+  \entry{li2020dxslam}{inproceedings}{}{}
+    \name{author}{8}{}{%
+      {{hash=LD}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Dongjiang},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SX}{%
+         family={Shi},
+         familyi={S\bibinitperiod},
+         given={Xuesong},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=LQ}{%
+         family={Long},
+         familyi={L\bibinitperiod},
+         given={Qiwei},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Shenghui},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=YW}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Wei},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=WF}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Fangshi},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=WQ}{%
+         family={Wei},
+         familyi={W\bibinitperiod},
+         given={Qi},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=QF}{%
+         family={Qiao},
+         familyi={Q\bibinitperiod},
+         given={Fei},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{LD+1}
+    \strng{fullhash}{LDSXLQLSYWWFWQQF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{booktitle}{2020 IEEE/RSJ International conference on intelligent
+  robots and systems (IROS)}
+    \field{pages}{4958\bibrangedash 4965}
+    \field{title}{DXSLAM: A robust and efficient visual SLAM system with deep
+  features}
+    \field{year}{2020}
+  \endentry
+
+  \entry{lowe2004distinctive}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=LDG}{%
+         family={Lowe},
+         familyi={L\bibinitperiod},
+         given={David\bibnamedelima G},
+         giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{LDG1}
+    \strng{fullhash}{LDG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2004}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{pages}{91\bibrangedash 110}
+    \field{title}{Distinctive image features from scale-invariant keypoints}
+    \field{volume}{60}
+    \field{journaltitle}{International journal of computer vision}
+    \field{year}{2004}
+  \endentry
+
+  \entry{mur2017orb}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=MAR}{%
+         family={Mur-Artal},
+         familyi={M\bibinithyphendelim A\bibinitperiod},
+         given={Raul},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=TJD}{%
+         family={Tard{\'o}s},
+         familyi={T\bibinitperiod},
+         given={Juan\bibnamedelima D},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{MARTJD1}
+    \strng{fullhash}{MARTJD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{number}{5}
+    \field{pages}{1255\bibrangedash 1262}
+    \field{title}{Orb-slam2: An open-source slam system for monocular, stereo,
+  and rgb-d cameras}
+    \field{volume}{33}
+    \field{journaltitle}{IEEE transactions on robotics}
+    \field{year}{2017}
+  \endentry
+
+  \entry{sarlin2019coarse}{inproceedings}{}{}
+    \name{author}{4}{}{%
+      {{hash=SPE}{%
+         family={Sarlin},
+         familyi={S\bibinitperiod},
+         given={Paul-Edouard},
+         giveni={P\bibinithyphendelim E\bibinitperiod},
+      }}%
+      {{hash=CC}{%
+         family={Cadena},
+         familyi={C\bibinitperiod},
+         given={Cesar},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Siegwart},
+         familyi={S\bibinitperiod},
+         given={Roland},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=DM}{%
+         family={Dymczyk},
+         familyi={D\bibinitperiod},
+         given={Marcin},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SPE+1}
+    \strng{fullhash}{SPECCSRDM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{booktitle}{Proceedings of the IEEE/CVF conference on computer vision
+  and pattern recognition}
+    \field{pages}{12716\bibrangedash 12725}
+    \field{title}{From coarse to fine: Robust hierarchical localization at
+  large scale}
+    \field{year}{2019}
+  \endentry
+
+  \entry{323794}{inproceedings}{}{}
+    \name{author}{2}{}{%
+      {{hash=SJ}{%
+         family={Shi},
+         familyi={S\bibinitperiod},
+         given={Jianbo},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=T}{%
+         family={Tomasi},
+         familyi={T\bibinitperiod},
+      }}%
+    }
+    \keyw{Tracking;Machine vision;Feature extraction}
+    \strng{namehash}{SJT1}
+    \strng{fullhash}{SJT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1994}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{booktitle}{1994 Proceedings of IEEE Conference on Computer Vision
+  and Pattern Recognition}
+    \verb{doi}
+    \verb 10.1109/CVPR.1994.323794
+    \endverb
+    \field{pages}{593\bibrangedash 600}
+    \field{title}{Good features to track}
+    \field{year}{1994}
+  \endentry
+
+  \entry{shi2020we}{inproceedings}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=SX}{%
+         family={Shi},
+         familyi={S\bibinitperiod},
+         given={Xuesong},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=LD}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Dongjiang},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=ZP}{%
+         family={Zhao},
+         familyi={Z\bibinitperiod},
+         given={Pengpeng},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=TQ}{%
+         family={Tian},
+         familyi={T\bibinitperiod},
+         given={Qinbin},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=TY}{%
+         family={Tian},
+         familyi={T\bibinitperiod},
+         given={Yuxin},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=LQ}{%
+         family={Long},
+         familyi={L\bibinitperiod},
+         given={Qiwei},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=ZC}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Chunhao},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Song},
+         familyi={S\bibinitperiod},
+         given={Jingwei},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=QF}{%
+         family={Qiao},
+         familyi={Q\bibinitperiod},
+         given={Fei},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=SL}{%
+         family={Song},
+         familyi={S\bibinitperiod},
+         given={Le},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{SX+1}
+    \strng{fullhash}{SXLDZPTQTYLQZCSJQFSL+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{booktitle}{2020 IEEE international conference on robotics and
+  automation (ICRA)}
+    \field{pages}{3139\bibrangedash 3145}
+    \field{title}{Are we ready for service robots? the openloris-scene datasets
+  for lifelong slam}
+    \field{year}{2020}
+  \endentry
+
+  \entry{tang2019gcnv2}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=TJ}{%
+         family={Tang},
+         familyi={T\bibinitperiod},
+         given={Jiexiong},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=EL}{%
+         family={Ericson},
+         familyi={E\bibinitperiod},
+         given={Ludvig},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=FJ}{%
+         family={Folkesson},
+         familyi={F\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=JP}{%
+         family={Jensfelt},
+         familyi={J\bibinitperiod},
+         given={Patric},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{TJ+1}
+    \strng{fullhash}{TJELFJJP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{number}{4}
+    \field{pages}{3505\bibrangedash 3512}
+    \field{title}{GCNv2: Efficient correspondence prediction for real-time
+  SLAM}
+    \field{volume}{4}
+    \field{journaltitle}{IEEE Robotics and Automation Letters}
+    \field{year}{2019}
+  \endentry
+\enddatalist
+\endinput

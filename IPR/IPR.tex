@@ -1,0 +1,94 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{left=20mm, right=20mm, top=25mm, bottom=25mm}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{courier}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage[style=authoryear, natbib,backend=bibtex]{biblatex}
+\addbibresource{bibliography.bib}
+
+\titleformat{\chapter}{\bf\huge}{\thechapter}{2pc}{}
+%\titlespacing*{which command}{left side}{above}{below}
+\titlespacing*{\chapter} {0pt}{10pt}{15pt}
+\titlespacing*{\section} {0pt}{5pt}{5pt}
+
+\title{Interim Progress Report}
+\author{Adwaith Kallungal Vrundavanan}
+\date{\today}
+\newcommand{\id}{22061390}
+\newcommand{\supervisorname}{Dr Zoe Jeffrey}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{Interim Progress Report}
+\fancyhead[R]{\thepage}
+
+\setlength{\parskip}{0.5em}
+\setlength{\parindent}{0em}
+
+\begin{document}
+	
+	\input{titlepage.tex}
+	
+	\tableofcontents
+	\newpage
+	
+	\section{Introduction and Overview}
+	\subsection{Introduction}
+	Simultaneous Localisation and Mapping (SLAM) is a problem that has made great improvements over the last decade. In the world of robotic,
+	feature-based visual SLAM algorithms reign supreme. They're efficient, allowing robots to navigate smoothly, and adaptable, making them perfect for long-term missions. But the existing visual SLAM algorithms use handcrafted visual features like SIFT \citep{lowe2004distinctive}, Shi-Tomasi \citep{323794} and ORB \citep{ethan2011orb} which fails to extract features in complex environments. Several studies \citep{mur2017orb,shi2020we} have identified limitations in ORB-SLAM2's ability to re-localize in environments with significant scene or viewpoint changes.
+	
+	Recent developments in deep learning has seen great results with pixel-wise feature extractors \citep{detone2018superpoint,dusmanu2019d2,tang2019gcnv2} which are more robust in extracting features even in complex conditions. While ORB-SLAM3 \citep{campos2021orb} represents a state-of-the-art visual SLAM algorithm, it utilizes the aforementioned ORB feature extraction, leading to limitations in complex scenarios.
+	
+	This project proposes an improvement to ORB-SLAM3 by integrating HF-Net \citep{sarlin2019coarse}, a deep learning-based feature extractor. \textcite{li2020dxslam} demonstrated improved performance over ORB-SLAM2 by utilizing HF-Net. This project aims to replicate and potentially surpass those results by integrating HF-Net into ORB-SLAM3.
+	\subsection{Research Question}
+	Describe the research question your project sets out to address as well as your proposed practical investigation.
+	
+	\subsection{Technical Work}
+	Describe any technical work that you are undertaking as part of that investigation, such as the construction of data-sets or software/hardware apparatus.
+	
+	\subsection{Tools and Techniques}
+	Say what tools and techniques you are using for your investigation, experimentation, and evaluation of your work.
+	
+	\subsection{Deliverables}
+	List the specific deliverables you intend to produce during your project: design, documents, programs, questionnaires, databases, test plans, experimental designs, results, etc.
+	
+	\subsection{Ethical, Legal, Professional, and Social Issues}
+	Discuss the ethical, legal, professional, and social issues concerning your project. Discuss if and why you need or do not need ethics approval.
+	
+	\section{Progress to Date}
+	\subsection{Completed Work}
+	Describe the progress you have made so far i.e. what you have done. Be specific.
+	
+	\subsection{Problems Encountered}
+	Problems encountered or anticipated and steps taken/to be taken to solve them.
+	
+	\subsection{Supporting Evidence}
+	Explain the supporting evidence you can provide for the work you have done, the documents that demonstrate your achievements, and include these documents as appendices.
+	
+	\subsection{Literature Review and Techniques}
+	Include information about your review of the literature and techniques as well as your progress of the artefact. Try to link your progress so far to the objectives you have defined in section 1.
+	
+	\section{Planned Work}
+	\subsection{Major Tasks}
+	List and explain the major tasks that need to be completed for the project to be a success, from start to finish (including any you have already completed) with target completion dates.
+	
+	\subsection{Quality and Evaluation}
+	Explain what each task means and what deliverables it will produce. Say how you will judge the quality of your project work and how you intend to evaluate the process through which you have gone.
+	
+	\subsection{Final Report and Presentation}
+	Include time for writing up the final report and preparing for the demonstration/presentation after submission.
+	
+	\section{Bibliography}
+	List any sources that you cite in your report. You should also list any sources that you have used, even if not cited directly. Use the Harvard system for your in-text citations, and for your references, producing one list, ordered by author’s surname (whether the material is drawn from books, journals, web pages, forums or blogs, or is a piece of software).
+	
+	\section{Appendices}
+	Include supporting evidence as appendices to your report. These should be numbered (Appendix 1, Appendix 2 etc.) and each should start on a new page and be given a title.
+	\printbibliography
+\end{document}
